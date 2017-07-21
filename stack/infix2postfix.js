@@ -6,11 +6,7 @@
   var currentOperator;
 
   function isOperator (token) {
-    if(token === '+' || token === '-' || token === '*' || token === '/') {
-      return true;
-    } else {
-      return false;
-    }
+    return (token === '+' || token === '-' || token === '*' || token === '/');
   }
 
   function isAHigherThanB(a, b){
