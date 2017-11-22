@@ -21,7 +21,6 @@
     //base case, left >= Right or we meet the condition of peak
     // else we check if we need to scan left or right and call the function accordingly
   }
-  
 
   var result = findPeak(arr, 0, arr.length - 1);
   console.log('peaks', peaks);
